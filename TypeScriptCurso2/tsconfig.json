@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "target": "ES2022",
+        "outDir": "./dist/js/", //Diretorio de output, onde estão os arquivos para serem compilados
+        "noEmitOnError": true, //se houver erro, não gerar o js no destino
+    },
+    "include": [ //pastas onde estarão os arquivos ts
+        "./src/**/*"
+    ]
+}
